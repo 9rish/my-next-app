@@ -7,6 +7,29 @@
   --foreground: #171717;
 }
 
+/* globals.css */
+
+/* Light theme */
+:root {
+  --color-primary-light: #007bff;
+  --color-primary-dark: #0044cc;
+  --background-light: #f8f9fa;
+  --background-dark: #343a40;
+  --text-light: #212529;
+  --text-dark: #ffffff;
+}
+
+/* Dark theme */
+[data-theme='dark'] {
+  --color-primary-light: #0044cc;
+  --color-primary-dark: #007bff;
+  --background-light: #343a40;
+  --background-dark: #212529;
+  --text-light: #ffffff;
+  --text-dark: #f8f9fa;
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
